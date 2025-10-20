@@ -30,6 +30,15 @@ const projects = [
     demoUrl: "https://morganmuchira925.github.io/Digital-Support-Toolkit/",
     githubUrl: "https://github.com/Morganmuchira925/Digital-Support-Toolkit.git",
   },
+  {
+    id: 4,
+    title: "Art Gallery Platform",
+    description: "An online platform to showcase and sell artwork from various artists.",
+    image: "/art-gallery.jpg",
+    tags: ["React", "PostgreSQL", "Node.js","Express", "TalilwindCSS"],
+    demoUrl: "https://artistry-canvas.vercel.app",
+    githubUrl: "https://github.com/Morganmuchira925/Art-Gallery.git",
+  }
 ];
 
 export const ProjectsSection = () => {

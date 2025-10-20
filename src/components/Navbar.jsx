@@ -73,7 +73,7 @@ export const Navbar = () => {
             href="#hero"
             onClick={handleNavItemClick}
           >
-            <span className="text-glow text-foreground">Morgan's</span> Portfolio
+            <span className="text-glow text-foreground">Morgan's</span> &nbsp; Portfolio
           </a>
 
           <div className="flex items-center space-x-4">
