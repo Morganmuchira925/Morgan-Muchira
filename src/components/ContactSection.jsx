@@ -43,17 +43,17 @@ export const ContactSection = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">
+            <h3 className="text-2xl font-semibold mb-6 text-center">
               {" "}
               Contact Information
             </h3>
 
-            <div className="space-y-6 justify-center">
-              <div className="flex items-start space-x-4">
+            <div className="space-y-6 flex flex-col items-center">
+              <div className="flex flex-col items-center space-y-2 w-full max-w-xs">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Mail className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="text-center">
                   <h4 className="font-medium"> Email</h4>
                   <a
                     href="mailto:muchiramorgan01@gmail.com"
@@ -63,11 +63,11 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex flex-col items-center space-y-2 w-full max-w-xs">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Phone className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="text-center">
                   <h4 className="font-medium"> Phone</h4>
                   <a
                     href="tel:+11234567890"
@@ -77,11 +77,11 @@ export const ContactSection = () => {
                   </a>
                 </div>
               </div>
-              <div className="flex items-start space-x-4">
+              <div className="flex flex-col items-center space-y-2 w-full max-w-xs">
                 <div className="p-3 rounded-full bg-primary/10">
                   <MapPin className="h-6 w-6 text-primary" />{" "}
                 </div>
-                <div>
+                <div className="text-center">
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
                     Nairobi, Kenya
@@ -96,10 +96,10 @@ export const ContactSection = () => {
                 <a href="https://www.linkedin.com/in/morgan-muchira-753105266/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BUwkTMTuOTI2W7%2BzDmXXC%2Fg%3D%3D" target="_blank">
                   <Linkedin />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://x.com/Capi4905" target="_blank">
                   <Twitter />
                 </a>
-                <a href="#" target="_blank">
+                <a href="https://www.instagram.com/_crimson._void/" target="_blank">
                   <Instagram />
                 </a>
                 <a href="#" target="_blank">
