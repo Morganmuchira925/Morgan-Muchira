@@ -15,7 +15,7 @@ const projects = [
     title: "ConvoBuzz Chat App",
     description:
       "Full-stack MERN chat app with real-time messaging,stunning themes and JWT authentication.",
-    image: "/Convobuzz_App.jpg",
+    image: "/Convobuzz_App.png",
     tags: ["React", "TailwindCSS", "MongoDB","Socket.io","Cloudinary"],
     demoUrl: "https://fullstack-chat-app-mwse.onrender.com",
     githubUrl: "https://github.com/Morganmuchira925/fullstack-chat-app",
@@ -43,7 +43,7 @@ const projects = [
     id: 5,
     title: "SMS Scam Detector",
     description: "An online site that detects fraudsters using AI",
-    image: "/scam_radar.jpg",
+    image: "/scam_radar.png",
     tags: ["React", "TailwindCSS","Node.js", "Gemini API"],
     demoUrl: "https://scamradarke.netlify.app/",
     githubUrl: "https://github.com/ianmugedo26/MLH_hackathon.git",
@@ -52,10 +52,10 @@ const projects = [
     id: 6,
     title: "StreamBuzz Music",
     description: "A music streaming platform with a vast library of songs and personalized playlists.",
-    image: "/streambuzz.jpg",
+    image: "/StreamUp.png",
     tags: ["React", "Node.js", "Express", "MongoDB","TailwindCSS", "Clerk"],
     demoUrl: "https://streambuzz.netlify.app",
-    githubUrl: "",
+    githubUrl: "https://github.com/Morganmuchira925/Spotify_Clone_React.git",
   },
 ];
 
