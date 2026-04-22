@@ -12,10 +12,10 @@ const projects = [
   },
   {
     id: 2,
-    title: "Chat-App",
+    title: "ConvoBuzz Chat App",
     description:
       "Full-stack MERN chat app with real-time messaging,stunning themes and JWT authentication.",
-    image: "/Chat-App.jpg",
+    image: "/Convobuzz_App.jpg",
     tags: ["React", "TailwindCSS", "MongoDB","Socket.io","Cloudinary"],
     demoUrl: "https://fullstack-chat-app-mwse.onrender.com",
     githubUrl: "https://github.com/Morganmuchira925/fullstack-chat-app",
@@ -38,7 +38,25 @@ const projects = [
     tags: ["React", "PostgreSQL", "Node.js","Express", "TalilwindCSS"],
     demoUrl: "https://artistry-canvas.vercel.app",
     githubUrl: "https://github.com/Morganmuchira925/Art-Gallery.git",
-  }
+  },
+  {
+    id: 5,
+    title: "SMS Scam Detector",
+    description: "An online site that detects fraudsters using AI",
+    image: "/scam_radar.jpg",
+    tags: ["React", "TailwindCSS","Node.js", "Gemini API"],
+    demoUrl: "https://scamradarke.netlify.app/",
+    githubUrl: "https://github.com/ianmugedo26/MLH_hackathon.git",
+  },
+  {
+    id: 6,
+    title: "StreamBuzz Music",
+    description: "A music streaming platform with a vast library of songs and personalized playlists.",
+    image: "/streambuzz.jpg",
+    tags: ["React", "Node.js", "Express", "MongoDB","TailwindCSS", "Clerk"],
+    demoUrl: "https://streambuzz.netlify.app",
+    githubUrl: "",
+  },
 ];
 
 export const ProjectsSection = () => {
