@@ -14,9 +14,9 @@ const projects = [
     id: 2,
     title: "ConvoBuzz Chat App",
     description:
-      "Full-stack MERN chat app with real-time messaging,stunning themes and JWT authentication.",
+      "Full-stack MERN chat app with real-time messaging,stunning themes, JWT authentication, and a Video Call Feature",
     image: "/Convobuzz_App.png",
-    tags: ["React", "TailwindCSS", "MongoDB","Socket.io","Cloudinary"],
+    tags: ["React", "TailwindCSS", "MongoDB","Socket.io","Cloudinary", "Stream"],
     demoUrl: "https://fullstack-chat-app-mwse.onrender.com",
     githubUrl: "https://github.com/Morganmuchira925/fullstack-chat-app",
   },
