@@ -57,6 +57,15 @@ const projects = [
     demoUrl: "https://streambuzz.netlify.app",
     githubUrl: "https://github.com/Morganmuchira925/Spotify_Clone_React.git",
   },
+  {
+    id: 7,
+    title: "Fedhajamii FinTech Solution",
+    description: "A fintech solution that provides financial tracking & AI suggestions to small-scale farmers and brokers.",
+    image: "/fedhajamii.jpg",
+    tags: ["React", "Node.js", "Express", "Convex","TailwindCSS", "Clerk"],
+    demoUrl: "https://fedhajamii.netlify.app",
+    githubUrl: "https://github.com/Morganmuchira925/Fedha_Hackathon-Frontend.git",
+  },
 ];
 
 export const ProjectsSection = () => {
