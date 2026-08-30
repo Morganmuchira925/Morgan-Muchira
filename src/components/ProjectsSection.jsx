@@ -66,6 +66,15 @@ const projects = [
     demoUrl: "https://fedhajamii.netlify.app",
     githubUrl: "https://github.com/Morganmuchira925/Fedha_Hackathon-Frontend.git",
   },
+  {
+    id: 8,
+    title: "Vero Voucher Verify",
+    description: "A collaborative project utilizing Africa's Talking(AT) messages API to check counterfeit products with geolocation.",
+    image: "/KEBS_Certified.png",
+    tags: ["Next", "Node.js", "Express","TailwindCSS", "SQLLite with Prisma", "AT message API"],
+    demoUrl: "https://kebs-web.christiantazma77.workers.dev/",
+    githubUrl: "https://github.com/kebs123/atf.git",
+  },
 ];
 
 export const ProjectsSection = () => {
